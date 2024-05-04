@@ -119,8 +119,8 @@
             <p><button class="fill" onclick="userFill()">Fill Selected (F)</button></p>
           </div>
           <div class="group">
-            <p><button class="io" onclick="importMap(prompt('Input map string:'))">Import map (M)</button></p>
-            <p><button class="io" onclick="copyToClipboard(exportMap())">Export map (X)</button></p>
+            <p><button class="io" onclick="importMap(prompt('请输入地图字符串：'))">Import map (M)</button></p>
+            <p><button class="io" onclick="copyToClipboard(exportMap()); alert('当前地图字符串已经导出到剪贴板')">Export map (X)</button></p>
           </div>
           <div class="group">
             <p><button class="dir" onclick="recalculate()">Auto-Pathfind (P)</button></p>
